@@ -1,0 +1,24 @@
+{
+    "name": "Hatsune Miku Image Grabber",
+    "description": "Hatsune Miku help you extract all images from current web page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16":"assets/hatsune-icon.png",
+        "32":"assets/hatsune-icon.png",
+        "48":"assets/hatsune-icon.png",
+        "128":"assets/hatsune-icon.png"
+    },  
+    "action": {
+        "default_popup":"menuExtensions/menuExtensions.html"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs",
+        "downloads"
+    ],
+    "background":{
+        "service_worker": "background.js"
+    }
+}

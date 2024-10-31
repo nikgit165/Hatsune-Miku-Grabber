@@ -1,0 +1,48 @@
+@font-face {
+    font-family: MonomakhUnicode;
+    src: url(/assets/fonts/MonomakhUnicode.otf)  format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:rgba(96, 255, 234, 0.589);
+}
+
+/* Header section */
+header h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(22, 22, 22);
+    font-family: MonomakhUnicode;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+header button#grabBtn{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    background-color:bisque;
+    border: 1px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* -moz-user-select: none;
+    user-select: none; */
+}
+
+header img{
+    max-width: 100%;
+    padding: 10px;
+    height: auto;
+    display: block;
+    margin: 0% auto;
+}
